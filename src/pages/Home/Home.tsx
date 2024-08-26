@@ -1,3 +1,4 @@
+import Banner from '@/components/Banner/Banner';
 import { Helmet } from 'react-helmet-async';
 
 const Home = () => {
@@ -6,6 +7,9 @@ const Home = () => {
       <Helmet>
         <title>Car Wash | Home</title>
       </Helmet>
+      <div>
+        <Banner></Banner>
+      </div>
     </div>
   );
 };
