@@ -15,14 +15,15 @@ const Banner = () => {
               Affordable & Fast Car Wash
             </h1>
             <h2 className='text-xs lg:text-2xl font-semibold font-serif'>
-              Best for your pocket and time!
+              Get Shiny Car, with Tiny Price! <br /> Book a wash Now and get 20%
+              discount.
             </h2>
           </div>
         </div>
 
         <div className='text-center'>
           <Link to='/'>
-            <button className='btn rounded-none border-none btn-lg my-10 outline outline-lime-300 hover:outline-lime-500 bg-white hover:bg-lime-100'>
+            <button className='btn rounded-none border-none btn-lg my-10 outline outline-lime-500 hover:outline-lime-500 bg-lime-50 hover:bg-lime-100'>
               Book a Wash
             </button>
           </Link>
