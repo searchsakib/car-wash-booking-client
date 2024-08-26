@@ -5,7 +5,7 @@ const Home = () => {
   return (
     <div className='overflow-hidden text-3xl text-white'>
       <Helmet>
-        <title>Car Wash | Home</title>
+        <title>Auto Shine | Home</title>
       </Helmet>
       <div>
         <Banner></Banner>
