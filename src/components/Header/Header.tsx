@@ -122,7 +122,7 @@ const Header = () => {
                   {photo ? <img src={photo} /> : <img src={userPic} />}
                 </div>
               </label>
-              {name && <p className='text-white'> {name} </p>}
+              {name && <p className=''> {name} </p>}
 
               {user ? (
                 <button
@@ -155,7 +155,7 @@ const Header = () => {
               {photo ? <img src={photo} /> : <img src={userPic} />}
             </div>
           </label>
-          {name && <p className='text-white'> {name} </p>}
+          {name && <p className=''> {name} </p>}
 
           {/* conditional rendering */}
           {user ? (
