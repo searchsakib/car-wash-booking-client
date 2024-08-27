@@ -53,7 +53,7 @@ const Header = () => {
 
       <li className='text-base font-medium md:pr-12 lg:pr-12 pb-4 md:pb-0 lg:pb-0'>
         <NavLink
-          to='/donation-requests'
+          to='/services'
           className={({ isActive, isPending }) =>
             isPending ? 'pending' : isActive ? activeColor : ''
           }
@@ -64,7 +64,7 @@ const Header = () => {
 
       <li className='text-base font-medium md:pr-12 lg:pr-12 pb-4 md:pb-0 lg:pb-0'>
         <NavLink
-          to='/blog'
+          to='/booking'
           className={({ isActive, isPending }) =>
             isPending ? 'pending' : isActive ? activeColor : ''
           }
